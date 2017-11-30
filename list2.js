@@ -1,7 +1,7 @@
 
 class List {
 	constructor(size) {
-		 var DEFAULT_SIZE = 10;
+		const DEFAULT_SIZE = 10;
 
 		 this.data = new Array(DEFAULT_SIZE);
 			 this.size = 0;
