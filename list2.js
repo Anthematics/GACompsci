@@ -17,9 +17,9 @@ class List {
 	}
 
 	growArray() {
-		var newArray = new Array(this.data.length * 2);
+		const newArray = new Array(this.data.length * 2);
 
-		for (var i = 0; i < this.data.length; i++) {
+		for (let i = 0; i < this.data.length; i++) {
 			newArray[i] = this.data[i];
 		}
 		this.data = newArray;
@@ -33,7 +33,7 @@ class List {
 const myList = new List();
 
 myList.append("yay!");
-for (var i = 0; i < 100; i++) {
+for (let i = 0; i < 100; i++) {
 	myList.append(i);
 }
 
